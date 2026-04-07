@@ -18,7 +18,8 @@ Browse through the projects below to find something that interests you. Each pro
 
 | Project | Package ID | Description |
 |---------|-----------|-------------|
-| *Coming Soon* | - | *-* |
+| *Project Naming Tool* | 04tak000000MCDp | *simple flow used to assign names to project records* |
+| ** | - | *-* |
 
 ## 🚀 Getting Started
 
