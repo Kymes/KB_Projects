@@ -1,6 +1,10 @@
 # 30 Day Countdown:
 
-This Salesforce data hygiene tool automates the lifecycle of a record by utilizing a custom Record Score formula to enforce data integrity and completeness. Through a combination of record-triggered flows and validation rules like the Clean Data Gate, the system guides a prospect from creation to either a verified Contact status or automated deactivation after 30 days of inactivity. By integrating scheduled Chatter notifications and a Reactivation Lock, the tool ensures that only high-quality, fully populated data remains active within the environment.
+It's widely known that manual record keeping is time-consuming. Maintaining a database of “clean” information with just a handful of spreadsheets is an exercise in patience. Stale information tends to pile up, and before you know it, data-rot sets in leading to an inaccurate, bloated mess. 
+
+What happens when automation is introduced to the process of manual record keeping? How much time and money would be saved? With automation, an employee saves about 3-4 hours per week. Whether it’s data input and retrieval, or repetitive administrative tasks, automation saves time and keeps data clean. 
+
+The 30-Day Countdown does just that. When record data is entered, there is a record score that is assigned based on the completeness of the record. A Validation rule prevents “dummy” information from being entered, and if the record is still incomplete after 48 hours of creation, a flow triggers to remind the owner to complete. If after 30 days the record still hasn’t been updated, a flow triggers to deactivate the record. Once deactivated, another validation rule prevents re-activation unless the record is completed. The 30-Day Countdown tool enforces clean data while preventing stale data. 
 
 ---
 
