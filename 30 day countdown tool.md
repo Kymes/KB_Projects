@@ -1,10 +1,11 @@
-# 30 Day Countdown:
+# 30 Day Countdown: Lead scoring tool
 
-It's widely known that manual record keeping is time-consuming. Maintaining a database of “clean” information with just a handful of spreadsheets is an exercise in patience. Stale information tends to pile up, and before you know it, data-rot sets in leading to an inaccurate, bloated mess. 
+Every business needs leads to thrive. No business thrives with bad leads. There is a real risk of a lead going cold if visibility drops off. Without a way to keep track, the leads go stale, begin to pile up and before you know it, data-rot sets in leaving an inaccurate, bloated mess of cold, stale records.  
 
-What happens when automation is introduced to the process of manual record keeping? How much time and money would be saved? With automation, an employee saves about 3-4 hours per week. Whether it’s data input and retrieval, or repetitive administrative tasks, automation saves time and keeps data clean. 
+The 30-Day Countdown is built as a lead scoring tool with safeguards to ensure that leads don’t go stale. When a record is created, it is assigned a record score based on completeness. A unique record identifier is also assigned for auditing purposes. 
+After 48 hours - if the record isn’t complete - a Chatter message sent to the assigned user for follow-up. At 30 days - if the lead score is still under 100 - the user is notified again and the record is deactivated. 
 
-The 30-Day Countdown does just that. When record data is entered, there is a record score that is assigned based on the completeness of the record. A Validation rule prevents “dummy” information from being entered, and if the record is still incomplete after 48 hours of creation, a flow triggers to remind the owner to complete. If after 30 days the record still hasn’t been updated, a flow triggers to deactivate the record. Once deactivated, another validation rule prevents re-activation unless the record is completed. The 30-Day Countdown tool enforces clean data while preventing stale data. 
+The record can be reactivated with a completed record score of 100 but to prevent the user from entering “dummy” information, two validation rules are used. The first validation rule guarantees only accurate record information is entered and the second stops reactivation of the record unless the score is at 100 and the information is filled out correctly ensuring clean, actionable data. 
 
 ---
 
