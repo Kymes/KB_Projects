@@ -7,7 +7,7 @@ After 48 hours - if the record isn’t complete - a Chatter message sent to the 
 
 The record can be reactivated with a completed record score of 100 but to prevent the user from entering “dummy” information, two validation rules are used. The first validation rule guarantees only accurate record information is entered and the second stops reactivation of the record unless the score is at 100 and the information is filled out correctly ensuring clean, actionable data. 
 
-When a lead record is active and completed with a record score of 100, a final flow triggers to update the Type field to Prospect. 
+When a lead record is active and completed with a record score of 100, a final flow triggers to update the Type field from Prospect to Contact. 
 
 ---
 
