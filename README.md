@@ -1,6 +1,6 @@
 # 🌟 KB Projects
 
-Welcome to KB Projects!!! This repository showcases various Salesforce implementations, customizations, and solutions based on developed to solve real-world business challenges.
+Welcome to KB Projects!!! This repository showcases various Salesforce implementations, customizations, and solutions developed to solve real-world business challenges.
 
 ## 👋 About This Repository
 
