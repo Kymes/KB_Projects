@@ -1,11 +1,16 @@
 # The Clean Slate
  
 One of the biggest problems with networking is organization.<br>
+
 What I’ve built is a declarative networking CRM designed to streamline professional outreach an help "clean the slate". <br>
+
 Built entirely with native Salesforce tools, the architecture utilizes a clean Master-Detail hierarchy where the Campaign object houses Contact records, which in turn manage individual Interaction records. <br>
+
 This nested structure ensures that all touchpoints, meeting notes, and follow-up activities bubble up directly to the parent campaign for clear visibility without requiring custom code.<br> 
+
 The system provides an out-of-the-box pipeline for tracking active conversations and conversion milestones.<br> 
 Users can easily check out the CRM in their own sandbox or Developer Edition org by using the provided unmanaged package ID to test the data model firsthand.
+
 --- 
 
 ## **Components:** 
