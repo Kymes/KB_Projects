@@ -20,6 +20,7 @@ Browse through the projects below to find something that interests you. Each pro
 |---------|-----------|-------------|
 | *Project Naming Tool* | 04tak000000MCDp | *simple flow used to assign names to project records* |
 | *30-Day Countdown* | 04tak000000QRKj | *tool created to enforce data hygiene* |
+| *The Clean Slate* | 04tak000000hxJN | *networking CRM built around data organization* |
 
 ## 🚀 Getting Started
 
@@ -69,6 +70,6 @@ I'm always excited to hear feedback, suggestions, and ideas from the community!
 
 **Happy exploring!** 🎉
 
-*Last Updated: July 2026*
+*Last Updated: September 2026*
 
 
